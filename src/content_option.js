@@ -1,12 +1,13 @@
 import proj1 from './assets/images/proj1.png';
 import proj2 from './assets/images/proj2.png';
+import proj3 from './assets/images/proj3.png';
 
 
 
 const logotext = "Amritansu";
 const meta = {
     title: "Amritansu Aditya",
-    description: "I am Amritansu Aditya, Machine Learning and Full stack devloper.",
+    description: "I am Amritansu Aditya, Machine Learning and Full stack devloper(MERN Developer).",
 };
 
 const introdata = {
@@ -16,13 +17,13 @@ const introdata = {
         second: "I code cool websites",
         third: "I program machine models.",
     },
-    description: "I am a Machine Learning and Full stack devloper. I am a passionate programmer and I love to code in C++, Python,  React, and Javascript.",
+    description: "I am a Machine Learning and MERN devloper. I am a passionate programmer and I love to code in C++, Python,  React, Javascript and Node.js.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "a'bit about my self",
-    aboutme: "I am a Machine Learning and Full stack devloper. I am a quick learner and I love to learn new technologies. I like to work on projects that are challenging and require creative solutions. I am a team player and I enjoy collaborating with others to achieve a common goal. I am passionate about coding and I am always looking for ways to improve my skills and expand my knowledge.",
+    aboutme: "I am a Machine Learning and Full stack devloper(MERN). I am a quick learner and I love to learn new technologies. I like to work on projects that are challenging and require creative solutions. I am a team player and I enjoy collaborating with others to achieve a common goal. I am passionate about coding and I am always looking for ways to improve my skills and expand my knowledge.",
 };
 
 
@@ -32,29 +33,57 @@ const skills = [{
     },
     {
         name: "C++",
-        value: 85,
+        value: 90,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 85,
     },
     {
         name: "React",
-        value: 60,
+        value: 85,
     },
-    
+    {
+        name: "Node.js",
+        value: 80,
+    },
+    {
+        name: "MongoDB",
+        value: 90,
+    },
+    {
+        name: "Express.js",
+        value: 80,
+    },
+    {
+        name: "Machine Learning",
+        value: 70,
+    },
+    {
+        name: "Sci-kit Learn",
+        value: 70,
+    },
+    {
+        name: "Tensorflow",
+        value: 70,
+    }
 ];
 
 
 const dataportfolio = [{
         img: proj1,
         description:"Stock Market Tracking website for NASDAQ.",
-        link: "#",
+        link: "https://amritansu-adi.github.io/investomedia/",
     },
     {
         img: proj2,
-        description: "Disater Relief based web Project.",
-        link: "#",
+        description: "Web Project for Disaster Relief.",
+        link: "https://github.com/Amritansu-Adi/DisRef",
+    },
+    {
+        img: proj3,
+        description: "A Recipe Generator Utilises AI to generate recipes based on ingredients given by user.",
+        link: "https://github.com/Amritansu-Adi/Recipe-Generator",
     },
 
 ];
