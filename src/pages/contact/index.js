@@ -4,7 +4,32 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import { contactConfig, socialprofils } from "../../content_option";
+import {
+  FaGithub,
+  FaTwitter,
+  FaFacebookF,
+  FaLinkedin,
+  FaYoutube,
+  FaTwitch,
+  FaInstagram,
+  FaSnapchatGhost,
+  FaTiktok,
+  FaCircle
+} from "react-icons/fa";
+
+const ICON_MAPPING = {
+  default: FaCircle,
+  facebook: FaFacebookF,
+  github: FaGithub,
+  instagram: FaInstagram,
+  linkedin: FaLinkedin,
+  snapchat: FaSnapchatGhost,
+  tiktok: FaTiktok,
+  twitter: FaTwitter,
+  twitch: FaTwitch,
+  youtube: FaYoutube
+};
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -40,7 +65,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! -- Thankyou for your messege",
             variant: "success",
             show: true,
           });
@@ -110,6 +135,20 @@ export const ContactUs = () => {
               )}
             </address>
             <p>{contactConfig.description}</p>
+
+            <ul style={{ display: "flex", gap: "7px", padding: "0"}}>
+
+                    {Object.entries(socialprofils).map(([platform, url]) => {
+                      const IconComponent = ICON_MAPPING[platform] || ICON_MAPPING.default;
+                      return (
+                        <li key={platform}>
+                          <a href={url}>
+                            <IconComponent />
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
