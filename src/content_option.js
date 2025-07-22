@@ -52,62 +52,79 @@ const skills = [
 
 const dataportfolio = [
   {
+    title: "Image Generation AI",
+    description: "AI image generator with credit-based system, prompt input, and ClipDrop API integration. Includes Razorpay payments.",
+    link: "https://github.com/Amritansu-Adi/Image_Gen_AI",
+    live: "https://image-gen-ai-1.onrender.com",
+    tags: ["MERN", "AI", "Payments"],
+    date: "July 2025",
+    bgColorLight: "#d5abf9ff",
+    bgColorDark: "#a855f7",
+  },
+  {
     title: "GPT-2 Rebuild",
     description: "Implemented GPT-2 from scratch using PyTorch. Includes BPE tokenizer, training loop, and transformer architecture.",
     link: "https://github.com/Amritansu-Adi/GPT_2",
     tags: ["AI", "PyTorch", "Transformer"],
-    bgColorLight: "#a995ffff", // soft violet
-    bgColorDark: "#8b5cf6",  // violet
+    date: "June 2025",
+    bgColorLight: "#a995ffff",
+    bgColorDark: "#8b5cf6",
   },
   {
     title: "NanoGPT",
     description: "Minimal GPT architecture reimplementation for quick experimentation and fine-tuning on custom datasets.",
     link: "https://github.com/Amritansu-Adi/NanoGPT",
     tags: ["NLP", "MiniGPT", "PyTorch"],
-    bgColorLight: "#9cf7ffff", // light cyan
-    bgColorDark: "#06b6d4",  // cyan
+    date: "May 2025",
+    bgColorLight: "#9cf7ffff",
+    bgColorDark: "#06b6d4",
   },
   {
     title: "makemore (Auto-regressive Model)",
     description: "Built character-level name generator using custom transformer blocks and training loop.",
     link: "https://github.com/Amritansu-Adi/Autoregressive--NLP-model-makemore",
     tags: ["Auto-regressive", "PyTorch", "NLP"],
-    bgColorLight: "#fff79bff", // light amber
-    bgColorDark: "#f59e0b",  // amber
-  },
-  {
-    title: "MERN Chat App",
-    description: "Real-time messaging app using React, Node.js, MongoDB, and Socket.IO. Features include group chat, auth, and notifications.",
-    link: "https://github.com/Amritansu-Adi/MERN-Chat-App",
-    live: "https://mern-chat-app-1-buzi.onrender.com/",
-    tags: ["MERN", "Socket.IO", "Real-time"],
-    bgColorLight: "#a9fed2ff", // light green
-    bgColorDark: "#10b981",  // green
+    date: "May 2025",
+    bgColorLight: "#fff79bff",
+    bgColorDark: "#f59e0b",
   },
   {
     title: "ELNS (Client Project)",
-    description: "Client dashboard for result publication built using React, Node.js, Express, and MongoDB.",
+    description: "Student help platform providing educational resources, news, and MBA/BBA-specific opportunities.",
     link: "https://github.com/Amritansu-Adi/ELNS",
     live: "https://elns-ugte.onrender.com",
-    tags: ["MERN", "Client", "Dashboard"],
-    bgColorLight: "#96c4ffff", // light blue
-    bgColorDark: "#3b82f6",  // blue
+    tags: ["MERN", "Client", "Student Platform"],
+    date: "April–May 2025",
+    bgColorLight: "#96c4ffff",
+    bgColorDark: "#3b82f6",
   },
   {
-    title: "Disaster Relief Platform",
-    description: "Web platform to visualize and manage relief logistics using maps and coordination tools.",
-    link: "https://github.com/Amritansu-Adi/DisRef",
-    tags: ["Relief", "GeoTools", "WebApp"],
-    bgColorLight: "#faa4a4ff", // light red
-    bgColorDark: "#ef4444",  // red
+    title: "MERN Chat App",
+    description: "Real-time messaging app using React, Node.js, MongoDB, and Socket.IO. Includes authentication and notifications.",
+    link: "https://github.com/Amritansu-Adi/MERN-Chat-App",
+    live: "https://mern-chat-app-1-buzi.onrender.com/",
+    tags: ["MERN", "Socket.IO", "Real-time"],
+    date: "March–April 2025",
+    bgColorLight: "#a9fed2ff",
+    bgColorDark: "#10b981",
   },
   {
-    title: "Chef Claude (Recipe Generator)",
+    title: "Recipe Generator AI",
     description: "Recipe generation app using ingredient input and LLM API responses.",
     link: "https://github.com/Amritansu-Adi/Recipe-Generator",
     tags: ["API", "Prompting", "Frontend"],
-    bgColorLight: "#ff9dd4ff", // light pink
-    bgColorDark: "#ec4899",  // pink
+    date: "Dec 2024 – Jan 2025",
+    bgColorLight: "#ff9dd4ff",
+    bgColorDark: "#ec4899",
+  },
+  {
+    title: "DisRef",
+    description: "Web platform to visualize and manage relief logistics using maps and coordination tools.",
+    link: "https://github.com/Amritansu-Adi/DisRef",
+    tags: ["Relief", "GeoTools", "WebApp"],
+    date: "September–October 2024",
+    bgColorLight: "#faa4a4ff",
+    bgColorDark: "#ef4444",
   },
   {
     title: "Investomedia",
@@ -115,8 +132,9 @@ const dataportfolio = [
     link: "https://amritansu-adi.github.io/investomedia/",
     live: "https://amritansu-adi.github.io/investomedia/",
     tags: ["Finance", "Stocks", "Frontend"],
-    bgColorLight: "#ffdbabff", // light orange
-    bgColorDark: "#f97316",  // orange
+    date: "May–June 2023",
+    bgColorLight: "#ffdbabff",
+    bgColorDark: "#f97316",
   },
 ];
 
