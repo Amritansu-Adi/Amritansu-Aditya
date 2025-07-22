@@ -31,13 +31,16 @@ export const Portfolio = () => {
   return (
     <section id="portfolio">
       <Container>
-        <h2 className="portfolio-heading" style={{ color: getHeadingColor() }}>🚀 Projects I’ve Built</h2>
+        <h2 className="portfolio-heading" style={{ color: getHeadingColor() }}>
+          🚀 Projects I’ve Built
+        </h2>
         <Row className="g-4">
           {dataportfolio.map((data, i) => (
             <Col key={i} md={6} lg={4}>
               <div
                 className="custom-card uniform-card card-hover pop-out"
                 style={{
+                  position: "relative",
                   background:
                     theme === "dark"
                       ? data.bgColorDarkCard
@@ -65,24 +68,21 @@ export const Portfolio = () => {
                 </div>
                 <div className="links">
                   {data.link && (
-                    <a
-                      href={data.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href={data.link} target="_blank" rel="noopener noreferrer">
                       <button className="btn-github">GitHub</button>
                     </a>
                   )}
                   {data.live && (
-                    <a
-                      href={data.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href={data.live} target="_blank" rel="noopener noreferrer">
                       <button className="btn-live">Live</button>
                     </a>
                   )}
                 </div>
+                {data.date && (
+                  <div className="project-date">
+                    📅 {data.date}
+                  </div>
+                )}
               </div>
             </Col>
           ))}
