@@ -213,3 +213,18 @@
 [data-theme="light"] .btn-live:hover {
   box-shadow: 0 0 14px 5px rgba(250, 204, 21, 0.8);
 }
+
+.project-date {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #1e293b; /* Dark slate */
+  opacity: 0.8;
+}
+
+[data-theme="dark"] .project-date {
+  color: #f1f5f9; /* Light slate */
+}
+
