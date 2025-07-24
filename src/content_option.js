@@ -108,34 +108,6 @@ const dataportfolio = [
     bgColorLight: "#a9fed2ff",
     bgColorDark: "#10b981",
   },
-  {
-    title: "Recipe Generator AI",
-    description: "Recipe generation app using ingredient input and LLM API responses.",
-    link: "https://github.com/Amritansu-Adi/Recipe-Generator",
-    tags: ["API", "Prompting", "Frontend"],
-    date: "Dec 2024 – Jan 2025",
-    bgColorLight: "#ff9dd4ff",
-    bgColorDark: "#ec4899",
-  },
-  {
-    title: "DisRef",
-    description: "Web platform to visualize and manage relief logistics using maps and coordination tools.",
-    link: "https://github.com/Amritansu-Adi/DisRef",
-    tags: ["Relief", "GeoTools", "WebApp"],
-    date: "September–October 2024",
-    bgColorLight: "#faa4a4ff",
-    bgColorDark: "#ef4444",
-  },
-  {
-    title: "Investomedia",
-    description: "Finance dashboard with NASDAQ stock trends, price analysis, and curated news feed.",
-    link: "https://amritansu-adi.github.io/investomedia/",
-    live: "https://amritansu-adi.github.io/investomedia/",
-    tags: ["Finance", "Stocks", "Frontend"],
-    date: "May–June 2023",
-    bgColorLight: "#ffdbabff",
-    bgColorDark: "#f97316",
-  },
 ];
 
 
