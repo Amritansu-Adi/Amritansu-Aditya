@@ -1,38 +1,29 @@
-### Description
+# 💼 Amritansu Aditya – Portfolio Website
 
-A simple portfolio template for developer/designers built with React. 
+A modern, responsive portfolio website to showcase my projects, skills, experience, and resume. Built with clean design and smooth user interaction in mind.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## 🌐 Live Preview
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+[Visit Website](https://amritansu-aditya.onrender.com)  
+📬 Email: [amritansuaditya1@gmail.com](mailto:amritansuaditya1@gmail.com)
 
-### Features
+---
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+## 📁 Features
 
-### Setup
+- 🧠 About Me section with skills & background
+- 💻 Projects with detailed descriptions and GitHub links
+- 📄 Resume download link
+- 🌐 Contact form with email integration
+- 🔄 Fully responsive (Mobile / Tablet / Desktop)
 
-Get the code
+---
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+## 🛠️ Built With
 
-<pre>yarn install</pre>
+- **React.js**
+- **JavaScript / JSX**
+- **EmailJS** – for contact form (or your backend if used)
+- **Vite / Webpack** – for bundling (specify if used)
 
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+---
